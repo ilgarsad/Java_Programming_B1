@@ -15,8 +15,7 @@ public class TypeCasting {
         System.out.println("b3: " + b3);
         System.out.println();
 
-        int i3 = 131
-                ;
+        int i3 = 130;
         byte b4 = (byte)i3; // -128 ........127 ----> After casting the data type, it checks the value if it is in the range
         System.out.println("b4: " +b4);
         System.out.println();
