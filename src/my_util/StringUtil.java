@@ -14,5 +14,22 @@ public class StringUtil {
         return reversed;
     }
 
+    /**
+     * This method made by Loopcamp Batch#1
+     * This method accepts a String parameter and puts it in a format.
+     * Ex:
+     *      The format will be like this
+     *
+     *      First letter is in uppercase and rest is in lowercase
+     *
+     * Then returns a String in a formatted way.
+     */
+
+    public static String fixFormat (String str) {
+        String fixed = str.trim();
+        fixed = str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
+        return fixed;
+    }
+
 
 }
