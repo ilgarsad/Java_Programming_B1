@@ -1,6 +1,6 @@
 package day38_a_abstraction.interface_methods;
 
-public class MacbookPro implements Mac {
+public class MacbookPro implements C14_Mac {
 
 
     @Override
@@ -15,8 +15,8 @@ public class MacbookPro implements Mac {
 class Runner {
     public static void main(String[] args) {
 
-        System.out.println(Mac.NAME);
-        System.out.println(Mac.OS);
+        System.out.println(C14_Mac.NAME);
+        System.out.println(C14_Mac.OS);
 
         // NOT GOOD PRACTICE because anything static belong sot he class
         // You can acccess to the static variable from the child class but not good way to do.
@@ -26,7 +26,7 @@ class Runner {
 
 
         System.out.println("----------");
-        Mac.company();
+        C14_Mac.company();
 
         //Mac.turnOn();
         // Parent interface can not reach the implementation which is in child class
