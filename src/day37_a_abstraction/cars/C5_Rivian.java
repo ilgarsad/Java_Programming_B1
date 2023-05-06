@@ -7,7 +7,7 @@ public class C5_Rivian extends C4_ElectricCar {
     }
 
     @Override
-    public void charging() {
+    public void charge() {
 
     }
     // this starts by the voice control
